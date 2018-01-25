@@ -9,10 +9,10 @@ header h1{
 	padding-left: 10px;
 }
 
-
-#contenido {
+#content {
 	padding: 10px;
 	background-color: F9F7F3;
+	margin-left: 200px;
 }
 
 footer {
@@ -23,3 +23,21 @@ footer {
 	text-align: center;
 }
 
+#masterMenu ul
+{
+	float: left;
+	width: 200px;
+	padding: 0;
+	margin: 0;
+}
+
+#content p img
+{
+	float: right;
+}
+
+#masterMenu ul li
+{
+	padding: 10px;
+	list-style-type: none;
+}
