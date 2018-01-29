@@ -5,14 +5,25 @@ body {
 	color: #605B56;
 }
 
+header{
+		padding: 3px 10px;
+		margin-bottom: 5px;
+		background: -webkit-linear-gradient(left, #5CA861, #BADFBC);
+		background: -o-linear-gradient(left, #5CA861, #BADFBC);	background: -moz-linear-gradient(left, #5CA861, #BADFBC);
+		background: linear-gradient(to right, #5CA861, #BADFBC);
+		border-radius: 10px;
+}
+
 header h1{
 	padding-left: 10px;
 }
 
 #content {
 	padding: 10px;
-	background-color: F9F7F3;
+	background-image: url(../img/imagen3.jpg);
 	margin-left: 200px;
+	border-radius: 6px;
+	color: black;
 }
 
 footer {
@@ -34,6 +45,9 @@ footer {
 #content p img
 {
 	float: right;
+	border: solid #605B56 2px;
+	margin: 3px;
+	border-radius: 4px;
 }
 
 #masterMenu ul li
